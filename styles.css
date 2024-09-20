@@ -1,0 +1,36 @@
+.banner-container {
+    margin: 0 auto;
+    padding: 0 10px 0 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(252,182,33);
+    justify-content: space-between;
+}
+
+.warning-box {
+    padding: 0 10px 0 10px;
+    overflow: hidden;
+}
+
+.close-box {
+    align-self: flex-end;
+    padding-right: 10px;
+}
+
+.close-button {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.close-button:hover {
+    cursor: pointer;
+}
+
+.warning-text {
+    font-weight: 600;
+}
+
+.hideAll {
+    display: none;
+}
